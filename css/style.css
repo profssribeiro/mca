@@ -1,0 +1,37 @@
+html,
+body {
+    height: 100%;
+    font-size: 1rem;
+}
+.gradient {
+    background: rgb(3,0,51);
+    background: linear-gradient(90deg, rgba(3,0,51,1) 0%, rgba(0,247,229,1) 47%, rgba(35,154,179,1) 93%);
+}
+
+.col-md-4 img {
+    max-width: 100%;
+}
+.page-header {
+    margin-top: 7rem ;
+    color: white;
+    font-size: 1.25rem;
+    font-family: cardo;
+}
+
+.navbar-brand img {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.card {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.login-form {
+    margin-top: 8rem ;
+}
+
+.register-form {
+    margin-top: 8rem ;
+}
