@@ -1,0 +1,67 @@
+Explanation:
+
+Color Palette: The CSS starts by defining comments indicating the color names and their corresponding hex codes for easy reference.
+
+Primary Color (#732115 - CLARET):
+
+This color is primarily used for:
+background-color and border-color of .bg-primary elements (like primary backgrounds) and .btn-primary (primary buttons).
+color of .text-primary elements (primary text).
+Headings (h1 to h6).
+Links (a).
+Borders of .border-primary elements.
+Navbar brand in light navbars.
+Navbar link hover in light navbars.
+Background and border of active list group items.
+Background of progress bars.
+Background and border of primary alerts.
+Background of primary badges.
+Background and border of active pagination links.
+Color of pagination links.
+Background of active dropdown items.
+Secondary Color (#b2936f - KHAKI BROWN):
+
+This color is used for:
+background-color and border-color of .bg-secondary elements and .btn-secondary (secondary buttons).
+color of .text-secondary elements.
+Borders of .border-secondary elements.
+Navbar links in dark navbars.
+Background of secondary badges with dark text for contrast.
+Body Background and Text (#ffffff - WHITE and #4c4c4c - DIM GREY):
+
+The body background is set to WHITE.
+The default body text color is set to DIM GREY.
+Text Color (#4c4c4c - DIM GREY):
+
+The default text color for the body is set to DIM GREY.
+.text-muted is kept as Bootstrap's default slightly lighter grey for muted text.
+Borders (#4c4c4c - DIM GREY):
+
+The default .border color is set to DIM GREY.
+Navbar:
+
+Customizations are provided for both .navbar-light (light background) and .navbar-dark (dark background) to ensure good contrast.
+Buttons (Outline Style):
+
+.btn-outline-primary and .btn-outline-secondary are styled with the specified colors for the text and border, and the background on hover.
+Forms:
+
+form-control borders are set to DIM GREY, with a CLARET border and shadow on focus.
+Cards:
+
+Card borders, header, and footer borders are set to DIM GREY.
+Progress Bars:
+
+Progress bars use the CLARET color.
+Alerts:
+
+Light tinted background and border colors are used for primary and secondary alerts, with the corresponding text color.
+List Groups:
+
+Active list group items use the CLARET color.
+Tables:
+
+Table background is set to WHITE, and borders to DIM GREY. Basic styling for striped and hover states is included.
+Pagination:
+
+Active and normal pagination links are styled with CLARET.

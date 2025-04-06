@@ -1,0 +1,348 @@
+/* Custom Bootstrap Theme - Claret, Khaki Brown, Dim Grey, White */
+
+/* ==================================================
+   Color Palette
+   ================================================== */
+
+/* Primary Color */
+.bg-primary,
+.btn-primary {
+  background-color: #732115 !important; /* CLARET */
+  border-color: #732115 !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background-color: #5a1a10 !important; /* Darker shade of CLARET */
+  border-color: #5a1a10 !important;
+}
+
+.text-primary {
+  color: #732115 !important; /* CLARET */
+}
+
+/* Secondary Color (Khaki Brown - could be used for accents or secondary buttons) */
+.bg-secondary,
+.btn-secondary {
+  background-color: #b2936f !important; /* KHAKI BROWN */
+  border-color: #b2936f !important;
+  color: #212529 !important; /* Dark text for contrast */
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active,
+.btn-secondary.active,
+.open > .dropdown-toggle.btn-secondary {
+  background-color: #91785a !important; /* Darker shade of KHAKI BROWN */
+  border-color: #91785a !important;
+}
+
+.text-secondary {
+  color: #b2936f !important; /* KHAKI BROWN */
+}
+
+/* Body Background and Text */
+body {
+  background-color: #ffffff !important; /* WHITE */
+  color: #4c4c4c !important; /* DIM GREY */
+}
+
+/* Text Color (Dim Grey) */
+.text-muted {
+  color: #6c757d !important; /* Keeping Bootstrap's default muted color as a slightly lighter grey */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #732115 !important; /* CLARET for headings */
+}
+
+/* Links */
+a {
+  color: #732115 !important; /* CLARET for links */
+}
+
+a:hover,
+a:focus {
+  color: #5a1a10 !important; /* Darker shade of CLARET for link hover */
+}
+
+/* Borders */
+.border {
+  border-color: #4c4c4c !important; /* DIM GREY for default borders */
+}
+
+.border-primary {
+  border-color: #732115 !important; /* CLARET for primary borders */
+}
+
+.border-secondary {
+  border-color: #b2936f !important; /* KHAKI BROWN for secondary borders */
+}
+
+/* Navbar */
+.navbar-light .navbar-brand {
+  color: #732115 !important; /* CLARET for navbar brand */
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #4c4c4c !important; /* DIM GREY for navbar links */
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+  color: #732115 !important; /* CLARET for navbar link hover */
+}
+
+.navbar-light .navbar-toggler {
+  color: #4c4c4c !important;
+  border-color: #4c4c4c !important;
+}
+
+.navbar-dark .navbar-brand {
+  color: #ffffff !important; /* WHITE for dark navbar brand (if used) */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #b2936f !important; /* KHAKI BROWN for dark navbar links */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: #ffffff !important; /* WHITE for dark navbar link hover */
+}
+
+.navbar-dark .navbar-toggler {
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+
+/* Buttons (Outline Style) */
+.btn-outline-primary {
+  color: #732115 !important; /* CLARET */
+  border-color: #732115 !important;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active,
+.btn-outline-primary.active,
+.btn-outline-primary:disabled {
+  background-color: #732115 !important; /* CLARET on hover */
+  border-color: #732115 !important;
+  color: #ffffff !important;
+}
+
+.btn-outline-secondary {
+  color: #b2936f !important; /* KHAKI BROWN */
+  border-color: #b2936f !important;
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus,
+.btn-outline-secondary:active,
+.btn-outline-secondary.active,
+.btn-outline-secondary:disabled {
+  background-color: #b2936f !important; /* KHAKI BROWN on hover */
+  border-color: #b2936f !important;
+  color: #212529 !important;
+}
+
+/* Forms */
+.form-control {
+  border-color: #4c4c4c !important; /* DIM GREY for form control borders */
+}
+
+.form-control:focus {
+  border-color: #732115 !important; /* CLARET on focus */
+  box-shadow: 0 0 0 0.2rem rgba(115, 33, 21, 0.25) !important; /* CLARET focus shadow */
+}
+
+/* Cards */
+.card {
+  border-color: #4c4c4c !important; /* DIM GREY for card borders */
+}
+
+.card-header {
+  background-color: #f8f9fa !important; /* Light grey for header */
+  border-bottom-color: #4c4c4c !important;
+}
+
+.card-footer {
+  background-color: #f8f9fa !important; /* Light grey for footer */
+  border-top-color: #4c4c4c !important;
+}
+
+/* Progress Bars */
+.progress-bar {
+  background-color: #732115 !important; /* CLARET for progress bar */
+}
+
+/* Alerts */
+.alert-primary {
+  background-color: #fdecea !important; /* Light tint of CLARET */
+  border-color: #f9d7d0 !important;
+  color: #732115 !important;
+}
+
+.alert-secondary {
+  background-color: #f7f3ed !important; /* Light tint of KHAKI BROWN */
+  border-color: #eee6da !important;
+  color: #b2936f !important;
+}
+
+/* List Groups */
+.list-group-item {
+  border-color: #e9ecef !important; /* Keeping Bootstrap's default for subtle dividers */
+}
+
+.list-group-item.active {
+  background-color: #732115 !important; /* CLARET for active list item */
+  border-color: #732115 !important;
+  color: #ffffff !important;
+}
+
+/* Tables */
+.table {
+  --bs-table-bg: #ffffff !important; /* WHITE table background */
+  --bs-table-border-color: #4c4c4c !important; /* DIM GREY table border */
+}
+
+.table-striped > tbody > tr:nth-child(odd) > * {
+  --bs-table-accent-bg: #f9f9f9 !important; /* Light grey for striped rows */
+}
+
+.table-hover > tbody > tr:hover > * {
+  --bs-table-hover-bg: #f2f2f2 !important; /* Lighter grey for hover */
+}
+
+/* Pagination */
+.page-item.active .page-link {
+  background-color: #732115 !important; /* CLARET for active pagination link */
+  border-color: #732115 !important;
+  color: #ffffff !important;
+}
+
+.page-link {
+  color: #732115 !important; /* CLARET for pagination links */
+}
+
+.page-link:hover {
+  color: #5a1a10 !important; /* Darker CLARET on hover */
+}
+
+/* Dropdowns */
+.dropdown-menu {
+  border-color: #4c4c4c !important; /* DIM GREY for dropdown border */
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: #f8f9fa !important; /* Light grey on hover */
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #732115 !important; /* CLARET for active dropdown item */
+  color: #ffffff !important;
+}
+
+/* Tooltips */
+.tooltip-inner {
+  background-color: #4c4c4c !important; /* DIM GREY for tooltip background */
+  color: #ffffff !important;
+}
+
+.bs-tooltip-auto[data-popper-placement^=top] .tooltip-arrow::before,
+.bs-tooltip-top .tooltip-arrow::before {
+  border-top-color: #4c4c4c !important;
+}
+
+.bs-tooltip-auto[data-popper-placement^=right] .tooltip-arrow::before,
+.bs-tooltip-right .tooltip-arrow::before {
+  border-right-color: #4c4c4c !important;
+}
+
+.bs-tooltip-auto[data-popper-placement^=bottom] .tooltip-arrow::before,
+.bs-tooltip-bottom .tooltip-arrow::before {
+  border-bottom-color: #4c4c4c !important;
+}
+
+.bs-tooltip-auto[data-popper-placement^=left] .tooltip-arrow::before,
+.bs-tooltip-left .tooltip-arrow::before {
+  border-left-color: #4c4c4c !important;
+}
+
+/* Popovers */
+.popover {
+  border-color: #4c4c4c !important; /* DIM GREY for popover border */
+}
+
+.popover-header {
+  background-color: #f8f9fa !important; /* Light grey for popover header */
+  border-bottom-color: #4c4c4c !important;
+}
+
+.popover-body {
+  color: #4c4c4c !important; /* DIM GREY for popover body text */
+}
+
+.bs-popover-auto[data-popper-placement^=top] > .popover-arrow::after,
+.bs-popover-top > .popover-arrow::after {
+  border-top-color: #ffffff !important;
+}
+
+.bs-popover-auto[data-popper-placement^=top] > .popover-arrow::before,
+.bs-popover-top > .popover-arrow::before {
+  border-top-color: #4c4c4c !important;
+}
+
+.bs-popover-auto[data-popper-placement^=right] > .popover-arrow::after,
+.bs-popover-right > .popover-arrow::after {
+  border-right-color: #ffffff !important;
+}
+
+.bs-popover-auto[data-popper-placement^=right] > .popover-arrow::before,
+.bs-popover-right > .popover-arrow::before {
+  border-right-color: #4c4c4c !important;
+}
+
+.bs-popover-auto[data-popper-placement^=bottom] > .popover-arrow::after,
+.bs-popover-bottom > .popover-arrow::after {
+  border-bottom-color: #ffffff !important;
+}
+
+.bs-popover-auto[data-popper-placement^=bottom] > .popover-arrow::before,
+.bs-popover-bottom > .popover-arrow::before {
+  border-bottom-color: #4c4c4c !important;
+}
+
+.bs-popover-auto[data-popper-placement^=left] > .popover-arrow::after,
+.bs-popover-left > .popover-arrow::after {
+  border-left-color: #ffffff !important;
+}
+
+.bs-popover-auto[data-popper-placement^=left] > .popover-arrow::before,
+.bs-popover-left > .popover-arrow::before {
+  border-left-color: #4c4c4c !important;
+}
+
+/* Badges */
+.badge-primary {
+  background-color: #732115 !important; /* CLARET */
+}
+
+.badge-secondary {
+  background-color: #b2936f !important; /* KHAKI BROWN */
+  color: #212529 !important;
+}
+
+/* Progress */
+.progress {
+  background-color: #e9ecef !important; /* Light grey for progress background */
+}
+
+/* Add more customizations as needed for other Bootstrap components */
